@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ternary operator</title>
+</head>
+<body>
+    <h1>Ternary operator</h1>
+    <script>
+
+        let age = 15;
+
+        let option = age >= 18 ? "Can vote" : "Can not vote" ;
+
+        document.write(option);
+
+
+    </script>
+
+    <h1>Login, Logout button</h1>
+    <script>
+        let login = "no";
+
+        let output = login == "yes" ? "Logout" : "Login";
+
+        document.write(output);
+    </script>
+
+    <h1>Without variable</h1>
+
+    <script>
+        let input = 19;
+
+        (input >= 18) ? document.write("You can vote") : document.write("You can not vote") ;
+
+    </script>
+
+    <h1>Example using prompt</h1>
+
+<script>
+
+    let marks = prompt("Enter your marks :");
+
+    let result = (marks >= 35) ? "Pass" : "Fail" ;
+
+    document.write(`You ${result} the exam`);
+
+
+</script>
+
+<h1>Nested ternary operator Example</h1>
+
+<script>
+    let number = -4;
+
+    let integer = number >= 0 ? (number == 0 ? "Zero" : "Positive") : "Negative";
+
+    document.write(`The number you entered is ${integer}`);
+</script>
+    
+</body>
+</html>
